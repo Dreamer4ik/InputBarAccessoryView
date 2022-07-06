@@ -19,6 +19,8 @@ Pod::Spec.new do |spec|
   spec.version      = "5.1.0"
   spec.summary      = "A simple and easily customizable InputAccessoryView for making powerful input bars with autocomplete and attachments"
 
+  spec.user_target_xcconfig = { 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => '$(inherited)' }
+
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
