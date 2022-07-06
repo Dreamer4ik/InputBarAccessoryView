@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "InputBarAccessoryView"
-  spec.version      = "6.1.0"
+  spec.version      = "5.1.0"
   spec.summary      = "A simple and easily customizable InputAccessoryView for making powerful input bars with autocomplete and attachments"
 
   # This description is used to generate tags and improve search results.
